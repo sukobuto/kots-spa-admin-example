@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+	<meta name="format-detection" content="telephone=no"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+	<title>AdminExample</title>
+
+	<!--
+	<link rel="apple-touch-startup-image" href="lib/durandal/img/ios-startup-image-landscape.png" media="(orientation:landscape)" />
+	<link rel="apple-touch-startup-image" href="lib/durandal/img/ios-startup-image-portrait.png" media="(orientation:portrait)" />
+	<link rel="apple-touch-icon" href="lib/durandal/img/icon.png"/>
+	-->
+
+	<link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/whirl.css"/>
+	<link rel="stylesheet" href="css/sb-admin-2.css"/>
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<script src="lib/jquery/dist/jquery.js"></script>
+	<script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="lib/knockout/dist/knockout.js"></script>
+	<script src="lib/knockout.punches/knockout.punches.min.js"></script>
+	<script src="lib/knockout-validation/Dist/knockout.validation.min.js"></script>
+	<script src="js/knockout.validation.ja-JP.js"></script>
+	<script src="lib/knockout-else/dist/knockout-else.js"></script>
+	<script src="lib/knockout-es5/dist/knockout-es5.min.js"></script>
+	<script src="js/linq.min.js"></script>
+	<script src="js/jquery.toaster.js"></script>
+	<script src="lib/routie/dist/routie.min.js"></script>
+	<script src="lib/moment/moment.js"></script>
+	<script src="lib/moment/locale/ja.js"></script>
+	<script src="lib/knockstrap/build/knockstrap.js"></script>
+	<script src="js/ko.customize.js"></script>
+	<script src="js/bundle.js"></script>
+</head>
+<body>
+<div id="wrapper" data-bind="with: shell">
+
+	<nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+		<header-nav params="option:headerNav"></header-nav>
+		<side-nav params="option:sideNav"></side-nav>
+	</nav>
+	<!--ko if: page-->
+	<div id="page-wrapper" class="contents { page.componentId }"
+			 data-bind="component:{ name:page.componentId, params:page }">
+	</div>
+	<!--/ko-->
+	<modal params="option:modal"></modal>
+
+</div>
+<div id="splash" data-bind="ifnot: shell">
+	<div class="message">
+		Admin Example
+	</div>
+	<div class="message whirl traditional no-overlay">
+		<br><br><br>
+	</div>
+</div>
+</body>
+</html>

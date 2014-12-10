@@ -1,0 +1,37 @@
+<ul class="ko-pager">
+	<li class="pager-summary" data-bind="visible: !loading">
+		<span class="hidden-xs">
+			<!--ko if: count > 0 -->
+			<span data-bind="text: count"> </span> 件中
+			<span data-bind="text: offset + 1"> </span> -
+			<span data-bind="text: offset + items.length"> </span> 件目を表示中
+			<!--/ko-->
+			<!--ko else-->
+			アイテムが登録されていません
+			<!--/ko-->
+		</span>
+	</li>
+	<li class="indicator" data-bind="visible: loading">
+		<i class="fa fa-refresh fa-spin"></i>
+	</li>
+	<li class="btn btn-xs" data-bind="click: first">
+		<i class="fa fa-step-backward"></i>
+	</li>
+	<li class="btn btn-xs" data-bind="click: prev">
+		<i class="fa fa-caret-left"></i>
+	</li>
+	<li class="pager-input" onclick="$(this).find('input').focus();">
+		<form data-bind="submit: goToInputted">
+			<input type="text" onfocus="this.select();"
+						 data-bind="value: pageInput,
+												valueUpdate: 'afterkeydown'" />
+			/<span data-bind="text: pages"> </span>
+		</form>
+	</li>
+	<li class="btn btn-xs" data-bind="click: next">
+		<i class="fa fa-caret-right"></i>
+	</li>
+	<li class="btn btn-xs" data-bind="click: last">
+		<i class="fa fa-step-forward"></i>
+	</li>
+</ul>

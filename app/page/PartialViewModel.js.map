@@ -1,0 +1,1 @@
+{"version":3,"file":"PartialViewModel.js","sourceRoot":"","sources":["PartialViewModel.ts"],"names":["PartialViewModel","PartialViewModel.constructor"],"mappings":";;;;;;yFACO,UAAU;IAGjB,IAAM,gBAAgB;QAASA,UAAzBA,gBAAgBA,UAAmBA;QAAzCA,SAAMA,gBAAgBA;YAASC,8BAAUA;QAAEA,CAACA;QAADD,uBAACA;IAADA,CAACA,AAA5C,EAA+B,UAAU,EAAG;IAF5C,OAAS,gBAAgB,CAAC"}

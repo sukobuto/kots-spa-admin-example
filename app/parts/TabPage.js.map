@@ -1,0 +1,1 @@
+{"version":3,"file":"TabPage.js","sourceRoot":"","sources":["TabPage.ts"],"names":["TabPage","TabPage.constructor","TabPage.load"],"mappings":";;;;;;2EACO,SAAS;IAGhB,IAAM,OAAO;QAASA,UAAhBA,OAAOA,UAAkBA;QAA/BA,SAAMA,OAAOA;YAASC,8BAASA;QAQ/BA,CAACA;QAJOD,sBAAIA,GAAXA,UAAYA,OAAYA;QAExBE,CAACA;QAEFF,cAACA;IAADA,CAACA,AARD,EAAsB,SAAS,EAQ9B;IAVD,OAAS,OAAO,CAAC"}

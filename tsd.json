@@ -1,0 +1,39 @@
+{
+	"version": "v4",
+	"repo": "borisyankov/DefinitelyTyped",
+	"ref": "master",
+	"path": "typings",
+	"bundle": "typings/tsd.d.ts",
+	"installed": {
+		"jquery/jquery.d.ts": {
+			"commit": "7c94fa739cdb7ef9c5fb794116e787cb13955d35"
+		},
+		"knockout/knockout.d.ts": {
+			"commit": "7c94fa739cdb7ef9c5fb794116e787cb13955d35"
+		},
+		"durandal/durandal.d.ts": {
+			"commit": "7c94fa739cdb7ef9c5fb794116e787cb13955d35"
+		},
+		"moment/moment.d.ts": {
+			"commit": "7c94fa739cdb7ef9c5fb794116e787cb13955d35"
+		},
+		"knockout.es5/knockout.es5.d.ts": {
+			"commit": "7c94fa739cdb7ef9c5fb794116e787cb13955d35"
+		},
+		"knockout.editables/ko.editables.d.ts": {
+			"commit": "974747ee99bbd087bac5e5647405101139519963"
+		},
+		"node/node.d.ts": {
+			"commit": "974747ee99bbd087bac5e5647405101139519963"
+		},
+		"routie/routie.d.ts": {
+			"commit": "974747ee99bbd087bac5e5647405101139519963"
+		},
+		"knockout.validation/knockout.validation.d.ts": {
+			"commit": "bd0833a22eb1c4e4a963068d4e2550fe866399d1"
+		},
+		"knockout.mapping/knockout.mapping.d.ts": {
+			"commit": "7145db5ef468d28a9926c8376f1f563116fe9a25"
+		}
+	}
+}

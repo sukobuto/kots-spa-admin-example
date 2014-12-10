@@ -1,0 +1,13 @@
+<div class="navbar-default sidebar" role="navigation">
+	<div class="sidebar-nav navbar-collapse">
+		<ul class="nav" id="side-menu">
+			{{#foreach menu}}
+			<li>
+				<a href="#{{path}}" data-bind="css:{ active: $parents[1].menuId == name }">
+					<i class="fa fa-fw fa-{{icon}}"></i> {{label}}
+				</a>
+			</li>
+			{{/foreach}}
+		</ul>
+	</div>
+</div>
