@@ -5,7 +5,7 @@ import Shell = require('./Shell');
 import AdminApi = require('services/AdminApi');
 import Toaster = require('services/Toaster');
 import ResourceContainer = require('services/ResourceContainer');
-import Modal = require('parts/Modal');
+import Modal = require('parts/modal/Modal');
 export=Application;
 
 class Application extends Injectable {

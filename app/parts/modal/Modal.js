@@ -4,7 +4,7 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-define(["require", "exports", '../Component'], function (require, exports, Component) {
+define(["require", "exports", '../../Component'], function (require, exports, Component) {
     var Modal = (function (_super) {
         __extends(Modal, _super);
         function Modal() {

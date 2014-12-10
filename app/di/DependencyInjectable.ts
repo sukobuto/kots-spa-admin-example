@@ -2,7 +2,7 @@ import DependencyInjector = require('./DependencyInjector');
 import AdminApi = require('../services/AdminApi');
 import ResourceContainer = require('../services/ResourceContainer');
 import Toaster = require('../services/Toaster');
-import Modal = require('../parts/Modal');
+import Modal = require('../parts/modal/Modal');
 export = DependencyInjectable;
 
 class DependencyInjectable {

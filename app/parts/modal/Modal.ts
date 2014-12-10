@@ -1,5 +1,5 @@
-/// <reference path="../references.d.ts" />
-import Component = require('../Component');
+/// <reference path="../../references.d.ts" />
+import Component = require('../../Component');
 export = Modal;
 
 interface TemplateBindObject {
