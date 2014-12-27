@@ -10,7 +10,7 @@ define(["require", "exports", '../Page'], function (require, exports, Page) {
         __extends(HomePage, _super);
         function HomePage() {
             _super.call(this);
-            this.title = "Home";
+            this.title = "KO + TypeScript で大規模 SPA 開発";
             this.componentId = componentId;
             ko.track(this);
         }

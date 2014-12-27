@@ -12,7 +12,7 @@ class HomePage extends Page {
 		return this.instance = new HomePage();
 	}
 	
-	public title = "Home";
+	public title = "KO + TypeScript で大規模 SPA 開発";
 	
 	constructor() {
 		super();
